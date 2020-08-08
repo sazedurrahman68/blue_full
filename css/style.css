@@ -1,0 +1,308 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start here*/
+header{
+	background-color: #121B2A;
+}
+.wrapper{
+	width: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo{
+	margin: 10px 0px;
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	margin-top: 50px;
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	margin: 10px 8px;
+	list-style-type: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	transition: 0.5s;
+}
+.menu ul li:last-child{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+/*header ends here*/
+/*banneer start here*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	/*-webkit-background-size: cover;*/
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	width: 50%;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	/*border: 1px solid red;*/
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 33px;
+	font-weight: 400;
+	color: white;
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-size:32px;
+	font-weight: 600;
+	color: #0078BD;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color: white;
+	line-height: 25px;
+	word-spacing: 1px;
+}
+.b_content button{
+	height: 45px;
+	width: 175px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+	text-transform: uppercase;
+	transition: 0.5s
+}
+.b_content button:hover{
+	color: #0078BD;
+}
+/*banneer ends here*/
+/*service start here*/
+.service{
+	background-color: #121B2A;
+}
+.single_service{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-right: 5%;
+	float: left;
+	width: 28%;
+	/*border: 1px solid red;*/
+}
+.top{
+	overflow: hidden;
+}
+.t_image{
+	width: 25%;
+	float: left;
+}
+.t_image img{
+	width: 100%;
+}
+.t_text{
+	margin-top: 12px;
+	width: 70%;
+	float: right;
+}
+.t_text h2{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+}
+.t_text h3{
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	color: #0078BD;
+}
+.bottom{
+	margin-top: 10px;
+}
+.bottom p{
+	color: white;
+	text-align: justify;
+	line-height: 20px;
+/*	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: white;*/
+}
+/*service ends here*/
+
+/*Testmonial section start here*/
+.testmonial{
+	background-color: #040811;
+	overflow: hidden;
+}
+.first{
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+	color: white;
+	margin-top: 15px;
+	/*background-color: red;*/
+	/*border: 1px solid blue;*/
+}
+.first p{
+	margin: 10px 0;
+}
+.blue_text{
+	color: #0077B6;
+}
+.f_p{
+	font-size: 14px;
+}
+.middle{
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+	color: white;
+	margin-top: 15px;
+	/*background-color: red;*/
+	/*border: 1px solid blue;*/
+}
+.middle .shape h2{
+	font-size: 20px;
+	overflow: hidden;
+}
+.middle .web{
+	margin-top: 10px;
+}
+/*css shape*/
+#talkbubble {
+     width: 230px;
+     height: 140px;
+     background: #0C1019;
+     padding: 5px;
+     position: relative;
+     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+     border-radius: 10px;
+}
+#talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 50px;
+      top: 150px;
+       width: 0;
+      height: 0;
+      border-top: 25px solid #0C1019;
+      border-right: 40px solid transparent;
+    }
+/*css shape*/
+.last{
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+	color: white;
+	margin-top: 15px;
+	/*background-color: red;*/
+	/*border: 1px solid blue;	*/
+}
+.big_pic{
+	width: 45%;
+	float: left;
+}
+.big_pic img{
+	width: 100%;
+}
+.side_pic{
+	width: 54%;
+	float: right;
+	margin-top: 10px;
+}
+.side_pic .app_image img{
+	width: 100%;
+}
+.side_pic .text h3{
+	font-size: 22px;
+}
+/*Testmonial section ends here*/
+
+/*footer start here*/
+footer{
+	background-color: #121B2A;
+}
+footer .wrapper .text{
+	width: 50%;
+	float: left;
+	margin-right: 4.5%;
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+}
+.f_menu{
+	width: 100%;
+}
+.f_menu ul{
+	float: right;
+}
+.f_menu ul li{
+	list-style: none;
+	float: left;
+}
+.f_menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 5px;
+	/*margin: 0 5px;*/
+	border-right: 1px solid white;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	color: white;
+
+}
+.f_menu ul li:last-child a{
+	border-right: 0;
+}
+.f_menu ul li a:hover{}
+.copyright{
+	width: 100%;
+	color: white;
+	margin-top: 20px;
+}
+.image1{
+	width: 20%;
+	float: left;
+	margin-right: 4.5%;
+	margin-top: 15px;
+	/*border: 1px solid red;*/
+}
+.image1 img{
+	width: 100%;
+}
+.image2{
+	width: 20%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.image2 img{
+	width: 100%;
+}
+/*footer ends here*/
+
+
+
